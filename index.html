@@ -1,51 +1,135 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Portfólio</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-    </head>
-    <body>
-       <div class="container">
-           <div class="menu-hamburguer">
-                <div class="line" id="line1"></div>
-                <div class="line" id="line2"></div>
-                <div class="line" id="line3"></div>
-                <span>Fechar</span>
-           </div>
-           <header>
-                <div class="img-wrapper">
-                    <img src="image/bg2.jpg" alt="">    
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfólio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+        <header>
+            <div class="img-wrapper">
+                <img src="image/bg2.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Web Developer & Front End Designer</h1>
+                <p>Matheus Menecucci</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Contatos</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </aside>
+
+
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ea aliquam numquam est
+                            dolore molestias consectetur quibusdam eveniet incidunt enim. Sit, qui. Odio exercitationem
+                            laudantium dignissimos corrupti quas unde dicta.</p>
+                    </div>
                 </div>
-                <div class="banner">
-                    <h1>Web Developer & Front End Designer</h1>
-                    <p>Matheus Menecucci</p>
-                    <button>Saiba mais</button>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis dignissimos autem?
+                            Totam, exercitationem incidunt consequatur blanditiis cumque fugiat possimus fugit quam quod
+                            quas itaque facere, est minus odit dolor.</p>
+                    </div>
                 </div>
-           </header>
-           <div class="sidebar">
-               <nav>
-                   <ul class="menu">
-                       <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                       <li class="menu-item"><a href="" class="menu-link">Conhecimento</a></li>
-                       <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
-                       <li class="menu-item"><a href="" class="menu-link">Contatos</a></li>
-                       <li class="menu-item"><a href="" class="menu-link">Orçamento</a></li>
-                   </ul>
-               </nav>
-               <div class="social-media">
-                   <a href=""><i class="fab fa-facebook-square"></i></a>
-                   <a href=""><i class="fab fa-github"></i></a>
-                   <a href=""><i class="fab fa-linkedin"></i></a>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur similique natus
+                            recusandae voluptatibus ea nesciunt saepe harum repellendus, minus, perspiciatis, velit
+                            magnam hic sint. Veritatis aperiam amet neque culpa? Dolorem.</p>
+                    </div>
                 </div>
-           </div>
-       </div>
-    </body>
-    <script src="script.js"></script>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javasscript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores cum iusto, esse hic
+                            voluptatibus numquam cupiditate id laudantium a inventore commodi rem beatae, dolorem quis
+                            aliquam et eligendi! Mollitia, officiis.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt aut praesentium non
+                            repellendus nobis ipsum enim quod consectetur, aspernatur impedit cumque perferendis ratione
+                            fuga iure molestias exercitationem! Error, reprehenderit.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>GITHUB</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sequi eveniet aliquam quidem
+                            ipsam quisquam dolores laborum fugit neque, amet voluptatem, ab, excepturi dolorum dolor!
+                            Quidem quia saepe esse sapiente!</p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="image/conhecimentos.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+
 </html>
