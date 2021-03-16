@@ -132,12 +132,12 @@ header{
     transition: 1s;
 }
 .show-menu #line1{
-    transform: rotate(225deg) translate(-0.4rem,-0.47rem);
+    transform: translate(0.4rem, 0.4rem) rotate(45deg);
     transition: 1s;
     /*translate vai alterar a posição*/
 }
 .show-menu #line3{
-    transform: rotate(-45deg) translate(0.3rem,-0.40rem);
+    transform: translate(0.3rem, -0.5rem) rotate(-45deg);
     transition: 1s;
 
 }
