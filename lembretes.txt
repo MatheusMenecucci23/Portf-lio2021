@@ -1,0 +1,13 @@
+ctrl + shift + p:abrir no live server
+selcionar + alt + seta1;movimentar um bloco
+crtl + enter:commit
+shift + alt + f:identar
+ctrl + alt: seleciona o as coisas
+ctrl + d: seleciona as ocorrências próximas
+
+Estudar position;
+Estudar z-index;
+Estudar display;
+Estudar box-shadow;
+Estudar flex-direction;
+Estudar hover focus etc;

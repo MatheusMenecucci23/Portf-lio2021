@@ -1,3 +1,0 @@
-ctrl + shift + p
-selcionar + alt + seta
-crtl + enter
