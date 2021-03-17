@@ -545,8 +545,8 @@ header{
     padding: 0 3rem;
     color: #fff;
     font-family: var(--font-primary);
-    font-size: 3rem;
-    font-weight: lighter;
+    font-size: 2.5rem;
+    font-weight: 600;
     border-radius: 10px;
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
 }
@@ -563,7 +563,7 @@ header{
 .sessao-orcamento label{
     font-family: var(--font-secundary);
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .sessao-orcamento input[type="number"]{
@@ -582,6 +582,10 @@ header{
     padding: 1rem;
     cursor: pointer;
     grid-column: 2;
+    font-size: 1.2rem;
+    height: 4rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
 }
 
 footer{
