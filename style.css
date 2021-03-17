@@ -97,7 +97,7 @@ header{
     color: #fff;
     background: #6a3093;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1rem 3rem;/*margem interna*/
     border: none;
     border-radius: 1px;
@@ -304,7 +304,7 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;/*espaçamento*/
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
 
 }
 .card{
@@ -361,12 +361,13 @@ header{
 .btn{
     background: #6a3093;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Sa*/
+    background: linear-gradient(to left, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Sa*/
     font-family: var(--font-action);
     color:#eee;
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 .card-info button{
    
@@ -414,6 +415,8 @@ header{
     color: #272727;
     font-size: 3rem;
     font-weight: lighter;
+    text-align: center;
+
 }
 
 .sessao-contato form{
@@ -457,7 +460,7 @@ header{
 
 .field:valid ~ label, .field:focus ~ label{
     top: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .field:focus{
@@ -468,7 +471,9 @@ header{
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-top: 1rem;
-    width: 100%;
-    height: 2rem;
+    width: 70%;
+    height: 2.5rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
 
 }
