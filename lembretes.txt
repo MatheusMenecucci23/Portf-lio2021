@@ -11,4 +11,5 @@ Estudar display;
 Estudar box-shadow;
 Estudar flex-direction;
 Estudar hover focus etc;
-Estudar grid
+Estudar grid;
+Estudar root;
