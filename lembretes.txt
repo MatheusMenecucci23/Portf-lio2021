@@ -6,10 +6,22 @@ ctrl + alt: seleciona o as coisas
 ctrl + d: seleciona as ocorrências próximas
 
 Estudar position;
+ position: absolute: Um elemento com posição: absoluto; está posicionado em relação ao ancestral posicionado mais próximo (em vez de posicionado em relação à viewport, como fixo):
+ position: -webkit-sticky: gruda no topo da página
+
 Estudar z-index;
+ coloca um elemento sobre o outro;
+
+
+Estudar Float:
+  Float: right; jogar para direita;
+  Float: left; jpgar a para a esquerda
+
+Estudar objectf-fit
+object-fit: cover; cobre a tela redimensionando a imagem;
 Estudar display;
-Estudar box-shadow;
+
 Estudar flex-direction;
-Estudar hover focus etc;
+Estudar hover focus pseudo-class;
 Estudar grid;
 Estudar root;
